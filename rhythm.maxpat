@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 36.0, 82.0, 981.0, 718.0 ],
+		"rect" : [ 34.0, 76.0, 1468.0, 724.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -41,26 +41,182 @@
 				"box" : 				{
 					"data" : 					{
 						"clips" : [ 							{
-								"filename" : "C:/Users/Etienne/Documents/GitHub/GENERATIVE001/SAMPLES/Short Sounds Front/Schlack.wav",
+								"filename" : "C:/Users/Etienne/Documents/GitHub/GENERATIVE001/SAMPLES/Short Sounds Front/rebound.wav",
 								"filekind" : "audiofile",
-								"selection" : [ 0.0, 1.0 ],
+								"selection" : [ 0.75, 1.0 ],
 								"loop" : 0,
 								"content_state" : 								{
+									"pitchshift" : [ 1.0 ],
+									"play" : [ 0 ],
 									"originallength" : [ 0.0, "ticks" ],
-									"formant" : [ 1.0 ],
 									"mode" : [ "basic" ],
+									"formant" : [ 1.0 ],
 									"originaltempo" : [ 120.0 ],
+									"quality" : [ "basic" ],
 									"basictuning" : [ 440 ],
 									"originallengthms" : [ 0.0 ],
 									"pitchcorrection" : [ 0 ],
 									"followglobaltempo" : [ 0 ],
+									"speed" : [ 1.0 ],
 									"slurtime" : [ 0.0 ],
 									"timestretch" : [ 0 ],
+									"formantcorrection" : [ 0 ]
+								}
+
+							}
+ ]
+					}
+,
+					"id" : "obj-11",
+					"maxclass" : "playlist~",
+					"numinlets" : 1,
+					"numoutlets" : 5,
+					"outlettype" : [ "signal", "signal", "signal", "", "dictionary" ],
+					"patching_rect" : [ 1196.0, 595.0, 150.0, 30.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"data" : 					{
+						"clips" : [ 							{
+								"filename" : "C:/Users/Etienne/Documents/GitHub/GENERATIVE001/SAMPLES/Short Sounds Front/ventilation_tap_02.wav",
+								"filekind" : "audiofile",
+								"selection" : [ 0.0, 1.0 ],
+								"loop" : 0,
+								"content_state" : 								{
 									"pitchshift" : [ 1.0 ],
-									"speed" : [ 1.0 ],
-									"formantcorrection" : [ 0 ],
+									"play" : [ 0 ],
+									"originallength" : [ 0.0, "ticks" ],
+									"mode" : [ "basic" ],
+									"formant" : [ 1.0 ],
+									"originaltempo" : [ 120.0 ],
 									"quality" : [ "basic" ],
-									"play" : [ 0 ]
+									"basictuning" : [ 440 ],
+									"originallengthms" : [ 0.0 ],
+									"pitchcorrection" : [ 0 ],
+									"followglobaltempo" : [ 0 ],
+									"speed" : [ 1.0 ],
+									"slurtime" : [ 0.0 ],
+									"timestretch" : [ 0 ],
+									"formantcorrection" : [ 0 ]
+								}
+
+							}
+ ]
+					}
+,
+					"id" : "obj-9",
+					"maxclass" : "playlist~",
+					"numinlets" : 1,
+					"numoutlets" : 5,
+					"outlettype" : [ "signal", "signal", "signal", "", "dictionary" ],
+					"patching_rect" : [ 1020.0, 551.0, 150.0, 30.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"data" : 					{
+						"clips" : [ 							{
+								"filename" : "C:/Users/Etienne/Documents/GitHub/GENERATIVE001/SAMPLES/Short Sounds Front/Ding ding ding.wav",
+								"filekind" : "audiofile",
+								"selection" : [ 0.0, 0.153846153846154 ],
+								"loop" : 0,
+								"content_state" : 								{
+									"pitchshift" : [ 1.0 ],
+									"play" : [ 0 ],
+									"originallength" : [ 0.0, "ticks" ],
+									"mode" : [ "basic" ],
+									"formant" : [ 1.0 ],
+									"originaltempo" : [ 120.0 ],
+									"quality" : [ "basic" ],
+									"basictuning" : [ 440 ],
+									"originallengthms" : [ 0.0 ],
+									"pitchcorrection" : [ 0 ],
+									"followglobaltempo" : [ 0 ],
+									"speed" : [ 1.0 ],
+									"slurtime" : [ 0.0 ],
+									"timestretch" : [ 0 ],
+									"formantcorrection" : [ 0 ]
+								}
+
+							}
+ ]
+					}
+,
+					"id" : "obj-7",
+					"maxclass" : "playlist~",
+					"numinlets" : 1,
+					"numoutlets" : 5,
+					"outlettype" : [ "signal", "signal", "signal", "", "dictionary" ],
+					"patching_rect" : [ 818.0, 556.0, 150.0, 30.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"data" : 					{
+						"clips" : [ 							{
+								"filename" : "C:/Users/Etienne/Documents/GitHub/GENERATIVE001/SAMPLES/Short Sounds Front/Clic clic.wav",
+								"filekind" : "audiofile",
+								"selection" : [ 0.0, 1.0 ],
+								"loop" : 0,
+								"content_state" : 								{
+									"pitchshift" : [ 1.0 ],
+									"play" : [ 0 ],
+									"originallength" : [ 0.0, "ticks" ],
+									"mode" : [ "basic" ],
+									"formant" : [ 1.0 ],
+									"originaltempo" : [ 120.0 ],
+									"quality" : [ "basic" ],
+									"basictuning" : [ 440 ],
+									"originallengthms" : [ 0.0 ],
+									"pitchcorrection" : [ 0 ],
+									"followglobaltempo" : [ 0 ],
+									"speed" : [ 1.0 ],
+									"slurtime" : [ 0.0 ],
+									"timestretch" : [ 0 ],
+									"formantcorrection" : [ 0 ]
+								}
+
+							}
+ ]
+					}
+,
+					"id" : "obj-5",
+					"maxclass" : "playlist~",
+					"numinlets" : 1,
+					"numoutlets" : 5,
+					"outlettype" : [ "signal", "signal", "signal", "", "dictionary" ],
+					"patching_rect" : [ 544.2857666015625, 595.0, 150.0, 30.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"data" : 					{
+						"clips" : [ 							{
+								"filename" : "C:/Users/Etienne/Documents/GitHub/GENERATIVE001/SAMPLES/Short Sounds Front/Schlack.wav",
+								"filekind" : "audiofile",
+								"selection" : [ 0.221153846153846, 0.673076923076923 ],
+								"loop" : 0,
+								"content_state" : 								{
+									"pitchshift" : [ 1.0 ],
+									"play" : [ 0 ],
+									"originallength" : [ 0.0, "ticks" ],
+									"mode" : [ "basic" ],
+									"formant" : [ 1.0 ],
+									"originaltempo" : [ 120.0 ],
+									"quality" : [ "basic" ],
+									"basictuning" : [ 440 ],
+									"originallengthms" : [ 0.0 ],
+									"pitchcorrection" : [ 0 ],
+									"followglobaltempo" : [ 0 ],
+									"speed" : [ 1.0 ],
+									"slurtime" : [ 0.0 ],
+									"timestretch" : [ 0 ],
+									"formantcorrection" : [ 0 ]
 								}
 
 							}
@@ -72,7 +228,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 5,
 					"outlettype" : [ "signal", "signal", "signal", "", "dictionary" ],
-					"patching_rect" : [ 36.857147216796875, 580.4285888671875, 150.0, 30.0 ]
+					"patching_rect" : [ 65.857177734375, 602.4285888671875, 150.0, 30.0 ]
 				}
 
 			}
@@ -91,7 +247,7 @@
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1192.857177734375, 378.28570556640625, 370.0, 123.0 ],
+					"patching_rect" : [ 1189.857177734375, 378.28570556640625, 370.0, 123.0 ],
 					"viewvisibility" : 1
 				}
 
@@ -219,13 +375,13 @@
 									"patching_rect" : [ 461.663177490234375, 173.0, 50.0, 22.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
+											"parameter_shortname" : "number",
+											"parameter_type" : 3,
 											"parameter_longname" : "number[10]",
 											"parameter_initial_enable" : 1,
 											"parameter_invisible" : 1,
 											"parameter_mmax" : 0.0,
-											"parameter_initial" : [ 100 ],
-											"parameter_shortname" : "number",
-											"parameter_type" : 3
+											"parameter_initial" : [ 100 ]
 										}
 
 									}
@@ -457,8 +613,8 @@
 , 							{
 								"name" : "newobjYellow-1",
 								"default" : 								{
-									"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1 ],
-									"fontsize" : [ 12.059008 ]
+									"fontsize" : [ 12.059008 ],
+									"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1 ]
 								}
 ,
 								"parentstyle" : "",
@@ -492,13 +648,13 @@
 					"patching_rect" : [ 544.2857666015625, 721.4285888671875, 136.0, 47.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_shortname" : "live.gain~",
+							"parameter_type" : 0,
+							"parameter_unitstyle" : 4,
 							"parameter_mmin" : -70.0,
 							"parameter_longname" : "live.gain~",
 							"parameter_mmax" : 6.0,
-							"parameter_initial" : [ 0.0 ],
-							"parameter_shortname" : "live.gain~",
-							"parameter_type" : 0,
-							"parameter_unitstyle" : 4
+							"parameter_initial" : [ 0.0 ]
 						}
 
 					}
@@ -576,7 +732,7 @@
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 36.857147216796875, 378.28570556640625, 370.0, 123.0 ],
+					"patching_rect" : [ 34.857147216796875, 378.28570556640625, 370.0, 123.0 ],
 					"viewvisibility" : 1
 				}
 
@@ -597,8 +753,89 @@
  ],
 		"lines" : [ 			{
 				"patchline" : 				{
+					"destination" : [ "obj-24", 0 ],
+					"source" : [ "obj-1", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-29", 1 ],
+					"source" : [ "obj-11", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-29", 0 ],
+					"source" : [ "obj-11", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-1", 0 ],
+					"order" : 3,
+					"source" : [ "obj-16", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-21", 0 ],
+					"order" : 1,
+					"source" : [ "obj-16", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-22", 0 ],
+					"order" : 0,
+					"source" : [ "obj-16", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-3", 0 ],
+					"order" : 2,
+					"source" : [ "obj-16", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-16", 0 ],
 					"source" : [ "obj-18", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-11", 0 ],
+					"source" : [ "obj-21", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-7", 0 ],
+					"source" : [ "obj-22", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-29", 1 ],
+					"source" : [ "obj-24", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-29", 0 ],
+					"source" : [ "obj-24", 0 ]
 				}
 
 			}
@@ -630,10 +867,49 @@
 				}
 
 			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-5", 0 ],
+					"source" : [ "obj-3", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-29", 1 ],
+					"order" : 0,
+					"source" : [ "obj-5", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-29", 0 ],
+					"order" : 1,
+					"source" : [ "obj-5", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-29", 1 ],
+					"order" : 0,
+					"source" : [ "obj-7", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-29", 0 ],
+					"order" : 1,
+					"source" : [ "obj-7", 0 ]
+				}
+
+			}
  ],
 		"parameters" : 		{
-			"obj-29" : [ "live.gain~", "live.gain~", 0 ],
 			"obj-16::obj-62" : [ "number[10]", "number", 0 ],
+			"obj-29" : [ "live.gain~", "live.gain~", 0 ],
 			"parameterbanks" : 			{
 
 			}
@@ -656,6 +932,34 @@
 			}
 , 			{
 				"name" : "Schlack.wav",
+				"bootpath" : "~/Documents/GitHub/GENERATIVE001/SAMPLES/Short Sounds Front",
+				"patcherrelativepath" : "./SAMPLES/Short Sounds Front",
+				"type" : "WAVE",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "Clic clic.wav",
+				"bootpath" : "~/Documents/GitHub/GENERATIVE001/SAMPLES/Short Sounds Front",
+				"patcherrelativepath" : "./SAMPLES/Short Sounds Front",
+				"type" : "WAVE",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "Ding ding ding.wav",
+				"bootpath" : "~/Documents/GitHub/GENERATIVE001/SAMPLES/Short Sounds Front",
+				"patcherrelativepath" : "./SAMPLES/Short Sounds Front",
+				"type" : "WAVE",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "ventilation_tap_02.wav",
+				"bootpath" : "~/Documents/GitHub/GENERATIVE001/SAMPLES/Short Sounds Front",
+				"patcherrelativepath" : "./SAMPLES/Short Sounds Front",
+				"type" : "WAVE",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "rebound.wav",
 				"bootpath" : "~/Documents/GitHub/GENERATIVE001/SAMPLES/Short Sounds Front",
 				"patcherrelativepath" : "./SAMPLES/Short Sounds Front",
 				"type" : "WAVE",
@@ -702,8 +1006,8 @@
 , 			{
 				"name" : "newobjYellow-1",
 				"default" : 				{
-					"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1 ],
-					"fontsize" : [ 12.059008 ]
+					"fontsize" : [ 12.059008 ],
+					"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1 ]
 				}
 ,
 				"parentstyle" : "",
