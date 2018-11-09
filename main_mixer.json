@@ -84,7 +84,29 @@
 					"AudioSend[4]::gain" : [ 0.0 ],
 					"AudioSend2[3]::active" : [ 1.0 ],
 					"AudioSend2[3]::bus" : [ "Master" ],
-					"AudioSend2[3]::gain" : [ 0.0 ]
+					"AudioSend2[3]::gain" : [ 0.0 ],
+					"AudioReceive::active" : [ 1.0 ],
+					"AudioReceive::bus" : [ 0.0 ],
+					"AudioReceive::gain" : [ 0.0 ],
+					"AudioSend[6]::active" : [ 1.0 ],
+					"AudioSend[6]::bus" : [ 0.0 ],
+					"AudioSend[6]::gain" : [ 0.0 ],
+					"AudioMix[5]::active" : [ 1.0 ],
+					"AudioMix[5]::gain" : [ 0.0 ],
+					"AudioMix[5]::pan" : [ 0.0 ],
+					"AudioMix[5]::solo" : [ 0.0 ],
+					"AudioSend2[4]::active" : [ 1.0 ],
+					"AudioSend2[4]::bus" : [ "Master" ],
+					"AudioSend2[4]::gain" : [ 0.0 ],
+					"bp.Gigaverb::Damp" : [ 0.7 ],
+					"bp.Gigaverb::Dry" : [ 1.0 ],
+					"bp.Gigaverb::Early" : [ 0.25 ],
+					"bp.Gigaverb::Regen" : [ 0.5 ],
+					"bp.Gigaverb::Size" : [ 74.999999999999972 ],
+					"bp.Gigaverb::Spread" : [ 23.0 ],
+					"bp.Gigaverb::Tail" : [ 0.25 ],
+					"bp.Gigaverb::Time" : [ 11.0 ],
+					"bp.Gigaverb::bypass" : [ 0.0 ]
 				}
 
 			}
@@ -171,7 +193,29 @@
 					"AudioSend[4]::gain" : [ 0.0 ],
 					"AudioSend2[3]::active" : [ 1.0 ],
 					"AudioSend2[3]::bus" : [ "name" ],
-					"AudioSend2[3]::gain" : [ 0.0 ]
+					"AudioSend2[3]::gain" : [ 0.0 ],
+					"AudioReceive::active" : [  ],
+					"AudioReceive::bus" : [  ],
+					"AudioReceive::gain" : [  ],
+					"AudioSend[6]::active" : [  ],
+					"AudioSend[6]::bus" : [  ],
+					"AudioSend[6]::gain" : [  ],
+					"AudioMix[5]::active" : [  ],
+					"AudioMix[5]::gain" : [  ],
+					"AudioMix[5]::pan" : [  ],
+					"AudioMix[5]::solo" : [  ],
+					"AudioSend2[4]::active" : [  ],
+					"AudioSend2[4]::bus" : [  ],
+					"AudioSend2[4]::gain" : [  ],
+					"bp.Gigaverb::Damp" : [  ],
+					"bp.Gigaverb::Dry" : [  ],
+					"bp.Gigaverb::Early" : [  ],
+					"bp.Gigaverb::Regen" : [  ],
+					"bp.Gigaverb::Size" : [  ],
+					"bp.Gigaverb::Spread" : [  ],
+					"bp.Gigaverb::Tail" : [  ],
+					"bp.Gigaverb::Time" : [  ],
+					"bp.Gigaverb::bypass" : [  ]
 				}
 
 			}
@@ -258,7 +302,29 @@
 					"AudioSend[4]::gain" : [ 0.0 ],
 					"AudioSend2[3]::active" : [ 1.0 ],
 					"AudioSend2[3]::bus" : [ "name" ],
-					"AudioSend2[3]::gain" : [ 0.0 ]
+					"AudioSend2[3]::gain" : [ 0.0 ],
+					"AudioReceive::active" : [  ],
+					"AudioReceive::bus" : [  ],
+					"AudioReceive::gain" : [  ],
+					"AudioSend[6]::active" : [  ],
+					"AudioSend[6]::bus" : [  ],
+					"AudioSend[6]::gain" : [  ],
+					"AudioMix[5]::active" : [  ],
+					"AudioMix[5]::gain" : [  ],
+					"AudioMix[5]::pan" : [  ],
+					"AudioMix[5]::solo" : [  ],
+					"AudioSend2[4]::active" : [  ],
+					"AudioSend2[4]::bus" : [  ],
+					"AudioSend2[4]::gain" : [  ],
+					"bp.Gigaverb::Damp" : [  ],
+					"bp.Gigaverb::Dry" : [  ],
+					"bp.Gigaverb::Early" : [  ],
+					"bp.Gigaverb::Regen" : [  ],
+					"bp.Gigaverb::Size" : [  ],
+					"bp.Gigaverb::Spread" : [  ],
+					"bp.Gigaverb::Tail" : [  ],
+					"bp.Gigaverb::Time" : [  ],
+					"bp.Gigaverb::bypass" : [  ]
 				}
 
 			}
@@ -345,7 +411,29 @@
 					"AudioSend[4]::gain" : [ 0.0 ],
 					"AudioSend2[3]::active" : [ 1.0 ],
 					"AudioSend2[3]::bus" : [ "name" ],
-					"AudioSend2[3]::gain" : [ 0.0 ]
+					"AudioSend2[3]::gain" : [ 0.0 ],
+					"AudioReceive::active" : [  ],
+					"AudioReceive::bus" : [  ],
+					"AudioReceive::gain" : [  ],
+					"AudioSend[6]::active" : [  ],
+					"AudioSend[6]::bus" : [  ],
+					"AudioSend[6]::gain" : [  ],
+					"AudioMix[5]::active" : [  ],
+					"AudioMix[5]::gain" : [  ],
+					"AudioMix[5]::pan" : [  ],
+					"AudioMix[5]::solo" : [  ],
+					"AudioSend2[4]::active" : [  ],
+					"AudioSend2[4]::bus" : [  ],
+					"AudioSend2[4]::gain" : [  ],
+					"bp.Gigaverb::Damp" : [  ],
+					"bp.Gigaverb::Dry" : [  ],
+					"bp.Gigaverb::Early" : [  ],
+					"bp.Gigaverb::Regen" : [  ],
+					"bp.Gigaverb::Size" : [  ],
+					"bp.Gigaverb::Spread" : [  ],
+					"bp.Gigaverb::Tail" : [  ],
+					"bp.Gigaverb::Time" : [  ],
+					"bp.Gigaverb::bypass" : [  ]
 				}
 
 			}
